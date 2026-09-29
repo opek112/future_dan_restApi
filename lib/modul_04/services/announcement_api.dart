@@ -18,7 +18,7 @@ class AnnouncementApi {
   final bool modeSimulasi;
 
   static const String baseUrl = 'https://jsonplaceholder.typicode.com';
-  static const Duration batasWaktu = Duration(seconds: 100);
+  static const Duration batasWaktu = Duration(seconds: 1);
 
   static const List<String> daftarKategori = <String>[
     'Akademik',
@@ -30,7 +30,7 @@ class AnnouncementApi {
   Future<List<Announcement>> ambilPengumuman() async {
     // ── Mode simulasi: tidak menyentuh jaringan sama sekali ──────────────
     if (modeSimulasi) {
-      await Future<void>.delayed(const Duration(seconds: 100));
+      await Future<void>.delayed(const Duration(seconds: 10));
       return Announcement.getSampleAnnouncements();
     }
 

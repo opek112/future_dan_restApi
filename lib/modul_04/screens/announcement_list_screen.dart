@@ -17,7 +17,7 @@ class AnnouncementListScreen extends StatefulWidget {
 class _AnnouncementListScreenState extends State<AnnouncementListScreen> {
   final AnnouncementApi _api = AnnouncementApi();
   late Future<List<Announcement>> _futurePengumuman;
-  String _kategoriTerpilih = 'Semua';
+  String _kategoriTerpilih = 'lainnya';
 
   // 🔴 TAMBAHKAN VARIABEL INI:
   final List<String> _categories = const [
@@ -26,6 +26,7 @@ class _AnnouncementListScreenState extends State<AnnouncementListScreen> {
     'Beasiswa',
     'Kegiatan',
     'Prestasi',
+    'lainnya',
   ];
 
   @override
