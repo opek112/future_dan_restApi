@@ -24,12 +24,12 @@ Proyek ini merupakan bagian dari **Modul 04 (Mobile Programming)** yang mengimpl
 
 | 1. Memuat Data (Loading) | 2. Gagal Memuat (Error) |
 | :---: | :---: |
-| ![Memuat Data](./screenshots/loading.png) | ![Gagal Memuat](./screenshots/error.png) |
+| ![Memuat Data](./screenshots/loading.png.png) | ![Gagal Memuat](./screenshots/error.png.png) |
 | *Indikator pengerjaan asinkronus* | *Penanganan exception/koneksi terputus* |
 
 | 3. Data Kosong / URL Salah (Empty) | 4. Berhasil Memuat (Success) |
 | :---: | :---: |
-| ![Data Kosong](./screenshots/empty.png) | ![Berhasil Memuat](./screenshots/success.png) |
+| ![Data Kosong](./screenshots/empty.png.png) | ![Berhasil Memuat](./screenshots/success.png.png) |
 | *Tampilan ketika data bernilai [ ]* | *Tampilan daftar pengumuman utuh* |
 
 ---
